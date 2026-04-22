@@ -15,7 +15,7 @@ Improve test readability, maintainability, and scalability
 │   ├── Locators.txt
 │   ├── Locators_table.txt
 │
-├── pages/
+├── POMS/
 │   ├── NavigationPage.py
 │   ├── ProductPage.py
 │   ├── LoginPage.py
