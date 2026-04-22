@@ -10,7 +10,6 @@ Practice and organize XPath and CSS selector strategies
 Convert raw locators into reusable Page Object Models
 Improve test readability, maintainability, and scalability
 
-
 📂 Project Structure
 ├── locators/
 │   ├── Locators.txt
@@ -22,6 +21,7 @@ Improve test readability, maintainability, and scalability
 │   ├── LoginPage.py
 │
 └── README.md
+
 🧠 Concepts Covered
 1. XPath Selectors
 Absolute vs Relative XPath
