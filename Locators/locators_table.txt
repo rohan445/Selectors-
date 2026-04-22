@@ -1,0 +1,15 @@
+Automation testing table practice 
+link: https://practice-automation.com/tables/
+
+Xpath 
+//table[@id = "tablepress-1"] for locating the table 
+//table[@id = "tablepress-1"]/thead for the header 
+//table[@id = "tablepress-1"]/tbody for the body
+//div[starts-with(@class,"dt-layout")]/table/tbody/tr[2]/td[2] finding and traversing table rows and columns through index 
+//div[starts-with(@class,"dt-layout")]/table/tbody/tr/td[contains(text(),"Pakistan")] finding and traversing table rows and columns through index through text 
+//table/tbody[@class = "row-striping row-hover"]/tr[4]/preceding::tr[2] to find prceding row 
+//table/tbody[@class = "row-striping row-hover"]/tr/following::tr[2] to find following or next row  
+//table[@id="tablepress-1"]/tbody/tr[position() >= 3 and position() <= 5] to select few rows 
+//tr[td[normalize-space()="United States"]] to find row in a table without relative path 
+//a[text() = "how to look up somethings in a table"] text based search to get a link  
+

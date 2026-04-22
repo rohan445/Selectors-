@@ -1,0 +1,55 @@
+testing xpath and css selectors 
+
+link: https://shop.qaautomationlabs.com/index.php
+
+login page
+
+Xpath selectors 
+//input[@type = "email" and starts-with(@class,"form")] inputing email 
+//input[@id = "password" or @class = "form-control"]  inputing password 
+//button[starts-with(@class, "btn") and @id = "loginBtn"] login button 
+//a[starts-with(@class,"breadcrumb") and @href = "#"] link to home page 
+//span[starts-with(@class,"navbar")] navigation bar 
+//div[#starts-with(@id,"navbar")] collapse navigation bar to display content 
+//a[@href = "#" and starts-with(@class ,"btn")] goes back to top after scrolling down 
+
+CSS selectors 
+input#email input email
+input#password input password 
+button.btn-primary,#loginBtn login button
+a.breadcrumb-item.text-dark home button 
+span.navbar-toggler-icon navigation bar 
+div#navbarCollapse collapse navigation bar display content 
+
+Ecommerce webpage 
+
+CSS selector
+div.offer-text for the 
+a.btn-primary  for the shop button 
+a[href= "mens-wear.php"] link for men's wear
+a[href = "womens-wear.php"] link for women's wear 
+span#cartCountmobile count for items in cart
+
+Xpath 
+//a[@href = "mens-wear.php"] for men's wear 
+//a[@href = "womens-wear.php"] for women's wear 
+//a[@href  ="shop.php" and starts-with(@class,"breadcrumb")] for shop webpage 
+//a[starts-with(@class,"breadcrumb") and @href = "#"]   selector for link to home page 
+//span[starts-with(@class,"navbar")] selector for navigation bar  
+//a[@href = "cart.php" and starts-with(@id,"cart")] link for cart 
+//span[@id="cartCountmobile"] count for items in cart
+//i[starts-with(@class ,"fas")] checkout button 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
