@@ -9,6 +9,8 @@ The goal of this project is to:
 Practice and organize XPath and CSS selector strategies
 Convert raw locators into reusable Page Object Models
 Improve test readability, maintainability, and scalability
+
+
 📂 Project Structure
 ├── locators/
 │   ├── Locators.txt
